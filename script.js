@@ -1,5 +1,7 @@
 // Deel A: 
-const ikrockArrowFunctions = () => console.log('Joe, ik rock de arrow function');
+const ikrockArrowFunctions = () => {
+console.log('Joe, ik rock de arrow function');
+}
 ikrockArrowFunctions();
 
 // Deel B: 
@@ -15,6 +17,6 @@ const addFive = a => a + 5;
 addFive();
 
 // Deel E: 
-const createObject = () => ({greeting: "hoi"});
+const createObject = () => ({value: "hoi"});
 createObject();
 
